@@ -1,0 +1,91 @@
+$color-primary: #20a0ff;//#18c79c
+
+$color-blue: #1496ec;
+
+$w-450: 450px;
+$w-195: 195px;
+$w-225: 215px;
+$w-340: 340px;
+.w-80 {
+  width: 80px;
+}
+
+.w-160 {
+  width: 160px;
+}
+
+.w-230 {
+  width: 230px;
+}
+
+.w-260 {
+  width: 260px;
+}
+
+.w-340 {
+  width: 340px;
+}
+
+.w-520 {
+  width: 520px;
+}
+
+.w-550 {
+  width: 550px;
+}
+
+.w-620 {
+  width: 620px;
+}
+
+.w-690 {
+  width: 690px;
+}
+
+.w-14 {
+  width: 14%;
+}
+
+.f-14 {
+  font-size: 14px;
+}
+
+.margin-t-10 {
+  margin-top: 10px;
+}
+
+.margin-l-10 {
+  margin-left: 10px;
+}
+
+.margin-r-10 {
+  margin-right: 10px;
+}
+
+.margin-b-10 {
+  margin-bottom: 10px;
+}
+
+.margin-t-20 {
+  margin-top: 20px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.el-form-item.is-required .el-form-item__label:before {
+  content: none;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}

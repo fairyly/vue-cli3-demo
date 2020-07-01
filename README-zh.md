@@ -1,57 +1,57 @@
 # vue-admin-template
 
-English | [简体中文](./README-zh.md)
-
-> A minimal vue admin template with Element UI & axios & iconfont & permission control & lint
+> 这是一个极简的 vue admin 管理后台。它只包含了 Element UI & axios & iconfont & permission control & lint，这些搭建后台必要的东西。
 
 
-**The current version is `v4.0+` build on `vue-cli`.**
+目前版本为 `v4.0+` 基于 `vue-cli` 进行构建。
 
 
 ## Build Setup
 
 ```bash
-# clone the project
-git clone
+# 克隆项目
+git clone 
 
-# enter the project directory
+# 进入项目目录
 cd vue-admin-template
 
-# install dependency
+# 安装依赖
 npm install
 
-# develop
+# 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
+npm install --registry=https://registry.npm.taobao.org
+
+# 启动服务
 npm run dev
 ```
 
-This will automatically open http://localhost:9528
+浏览器访问 [http://localhost:9528](http://localhost:9528)
 
-## Build
+## 发布
 
 ```bash
-# build for test environment
+# 构建测试环境
 npm run build:stage
 
-# build for production environment
+# 构建生产环境
 npm run build:prod
 ```
 
-## Advanced
+## 其它
 
 ```bash
-# preview the release environment effect
+# 预览发布环境效果
 npm run preview
 
-# preview the release environment effect + static resource analysis
+# 预览发布环境效果 + 静态资源分析
 npm run preview -- --report
 
-# code format check
+# 代码格式检查
 npm run lint
 
-# code format check and auto fix
+# 代码格式检查并自动修复
 npm run lint -- --fix
 ```
-
 
 
 ## Browsers support
